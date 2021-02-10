@@ -48,6 +48,9 @@ class Game{
             finish = true;
         }
         image(back_img, 0, 0, 1000, 800);
+        fill("lightgreen")
+        textSize(20);
+        text("Both players must reach a score 0f 15, whomever scores 15 first will win the game",200,100);
         var x =100;
         var y=200;
         var index =0;
